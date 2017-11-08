@@ -1,0 +1,39 @@
+{
+	"name": "has-emoji",
+	"version": "0.0.0",
+	"description": "Check whether a string has any emoji",
+	"license": "MIT",
+	"repository": "sindresorhus/has-emoji",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"emoji",
+		"emojis",
+		"string",
+		"text",
+		"has",
+		"contains",
+		"includes",
+		"detect",
+		"is"
+	],
+	"dependencies": {
+		"emoji-regex": "^6.5.1"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
+}
