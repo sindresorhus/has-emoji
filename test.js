@@ -1,7 +1,7 @@
 import test from 'ava';
 import m from '.';
 
-test(t => {
+test('main', t => {
 	t.true(m('Unicorn 🦄'));
 	t.true(m('🌈'));
 	t.true(m('❤️ Heart'));
