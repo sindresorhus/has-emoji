@@ -1,10 +1,10 @@
 import test from 'ava';
-import m from '.';
+import hasEmoji from '.';
 
 test('main', t => {
-	t.true(m('Unicorn 🦄'));
-	t.true(m('🌈'));
-	t.true(m('❤️ Heart'));
-	t.false(m('Ø'));
-	t.false(m('Cat'));
+	t.true(hasEmoji('Unicorn 🦄'));
+	t.true(hasEmoji('🌈'));
+	t.true(hasEmoji('❤️ Heart'));
+	t.false(hasEmoji('Ø'));
+	t.false(hasEmoji('Cat'));
 });

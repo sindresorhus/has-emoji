@@ -12,6 +12,6 @@ hasEmoji('Cat');
 //=> false
 ```
 */
-declare function hasEmoji(text: string): boolean;
+declare function hasEmoji(string: string): boolean;
 
 export = hasEmoji;
