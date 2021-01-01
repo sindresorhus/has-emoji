@@ -1,4 +1,4 @@
-# has-emoji [![Build Status](https://travis-ci.org/sindresorhus/has-emoji.svg?branch=master)](https://travis-ci.org/sindresorhus/has-emoji)
+# has-emoji
 
 > Check whether a string has any emoji
 
