@@ -1,4 +1,5 @@
-'use strict';
-const emojiRegex = require('emoji-regex/es2015');
+import emojiRegex from 'emoji-regex/es2015/RGI_Emoji.js';
 
-module.exports = string => emojiRegex().test(string);
+export default function hasEmoji(string) {
+	return emojiRegex().test(string);
+}

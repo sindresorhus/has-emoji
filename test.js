@@ -1,5 +1,5 @@
 import test from 'ava';
-import hasEmoji from '.';
+import hasEmoji from './index.js';
 
 test('main', t => {
 	t.true(hasEmoji('Unicorn 🦄'));
