@@ -1,5 +1,5 @@
-import emojiRegex from 'emoji-regex/es2015/RGI_Emoji.js';
+const regex = /\p{RGI_Emoji}/v;
 
 export default function hasEmoji(string) {
-	return emojiRegex().test(string);
+	return regex.test(string);
 }
